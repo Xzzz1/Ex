@@ -1,0 +1,6 @@
+                for i,l in pairs(game.Workspace["Prison_Fences"]:GetChildren()) do
+                    if l.Name == "fence" then
+                        l:Destroy()
+                    end
+                end
+            end)
